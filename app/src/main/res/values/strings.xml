@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Youtube40</string>
+    <string name="text_themes">Emotional Well-being || Healing \nPractices for Children</string>
+    <string name="count_videos">32 video series</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+</resources>
