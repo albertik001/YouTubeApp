@@ -24,7 +24,7 @@ class PlaylistViewModel : BaseViewModel() {
 
     private fun playlist(): LiveData<Playlist> {
         val data = MutableLiveData<Playlist>()
-        apiService.getPlaylists(Constant.part, API_KEY, Constant.channelId).enqueue(object :
+        apiService.getPlaylists(Constant.part, API_KEY, Constant.channelId, 50).enqueue(object :
             Callback<Playlist> {
             override fun onResponse(call: Call<Playlist>, response: Response<Playlist>) {
                 if (response.isSuccessful) {

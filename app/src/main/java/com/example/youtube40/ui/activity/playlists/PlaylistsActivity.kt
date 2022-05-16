@@ -1,6 +1,7 @@
 package com.example.youtube40.ui.activity.playlists
 
 import android.content.Intent
+import android.os.Bundle
 import android.view.LayoutInflater
 import android.widget.Toast
 import androidx.core.view.isInvisible
@@ -11,17 +12,19 @@ import com.example.youtube40.base.BaseActivity
 import com.example.youtube40.common.`object`.Constant
 import com.example.youtube40.databinding.ActivityPlaylistsBinding
 import com.example.youtube40.model.Item
-import com.example.youtube40.ui.checkinternet.ConnectionLiveData
 import com.example.youtube40.ui.activity.playlists.detail.DetailPlaylistActivity
+import com.example.youtube40.ui.checkinternet.ConnectivityStatus
 
 class PlaylistsActivity :
     BaseActivity<PlaylistViewModel, ActivityPlaylistsBinding>() {
 
     private val adapter = PlaylistAdapter(this::onItemClick)
-    private lateinit var checkNet: ConnectionLiveData
-
     override val viewModel: PlaylistViewModel by lazy {
         ViewModelProvider(this)[PlaylistViewModel::class.java]
+    }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
     }
 
     override fun initView() {
@@ -51,16 +54,17 @@ class PlaylistsActivity :
     }
 
     override fun checkInternet() {
-        checkNet = ConnectionLiveData(application)
+        val checkNet = ConnectivityStatus(this)
         checkNet.observe(this) {
             if (it) {
-                initViewModel()
-                binding.recyclerPlaylist.isVisible = true
                 binding.includedNoInternet.root.isInvisible = true
+                binding.recyclerPlaylist.isVisible = true
+                initViewModel()
             } else {
                 binding.recyclerPlaylist.isInvisible = true
                 binding.includedNoInternet.root.isVisible = true
             }
         }
+
     }
 }

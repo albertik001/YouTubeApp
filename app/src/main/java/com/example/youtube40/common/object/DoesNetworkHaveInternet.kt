@@ -1,7 +1,6 @@
 package com.example.youtube40.common.`object`
 
 import android.util.Log
-import com.example.youtube40.ui.checkinternet.TAG
 import java.io.IOException
 import java.net.InetSocketAddress
 import javax.net.SocketFactory

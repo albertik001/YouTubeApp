@@ -22,4 +22,7 @@ class DetailPlaylistActivity :
         Toast.makeText(this, intent.getStringExtra(Constant.putId), Toast.LENGTH_SHORT).show()
     }
 
+    suspend fun safd() {
+
+    }
 }
