@@ -14,10 +14,10 @@
         android:theme="@style/Theme.Youtube40"
         android:usesCleartextTraffic="true">
         <activity
-            android:name="com.example.youtube40.ui.activity.playlists.detail.DetailPlaylistActivity"
+            android:name="com.example.youtube40.presentation.ui.activity.playlists.detail.DetailPlaylistActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.youtube40.ui.activity.playlists.PlaylistsActivity"
+            android:name="com.example.youtube40.presentation.ui.activity.playlists.PlaylistsActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

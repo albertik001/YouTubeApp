@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.core:core:1.7.0@aar">
     <ANNOTATIONS>
-      <root url="jar://$PROJECT_DIR$/../../caches/transforms-3/1fc027b38e217df6dd7e9c23f68f8336/transformed/core-1.7.0/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../caches/transforms-3/4c36211db54396d59f7080ea71f29718/transformed/core-1.7.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../caches/transforms-3/1fc027b38e217df6dd7e9c23f68f8336/transformed/core-1.7.0/res" />
-      <root url="jar://$PROJECT_DIR$/../../caches/transforms-3/1fc027b38e217df6dd7e9c23f68f8336/transformed/core-1.7.0/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../caches/transforms-3/1fc027b38e217df6dd7e9c23f68f8336/transformed/core-1.7.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../caches/transforms-3/4c36211db54396d59f7080ea71f29718/transformed/core-1.7.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../caches/transforms-3/4c36211db54396d59f7080ea71f29718/transformed/core-1.7.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../caches/transforms-3/4c36211db54396d59f7080ea71f29718/transformed/core-1.7.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
