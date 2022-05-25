@@ -14,4 +14,5 @@
     <color name="transparent_80">#B3000000</color>
     <color name="_white_five">#E5E5E5</color>
     <color name="_white_six">#F6F6F6</color>
+    <color name="gray_matt">#616161</color>
 </resources>

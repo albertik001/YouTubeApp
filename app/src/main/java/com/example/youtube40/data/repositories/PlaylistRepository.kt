@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.liveData
 import com.example.youtube40.core.network.status.Resource
 import com.example.youtube40.data.remote.RemoteDataSource
-import com.example.youtube40.data.remote.model.Playlist
+import com.example.youtube40.data.remote.dto.Playlist
 import kotlinx.coroutines.Dispatchers
 
 class PlaylistRepository(private val dataSource: RemoteDataSource) {

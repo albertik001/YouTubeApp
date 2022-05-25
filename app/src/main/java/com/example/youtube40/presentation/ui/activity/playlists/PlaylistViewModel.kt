@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.example.youtube40.App
 import com.example.youtube40.core.network.status.Resource
-import com.example.youtube40.data.remote.model.Playlist
+import com.example.youtube40.data.remote.dto.Playlist
 import com.example.youtube40.presentation.ui.base.BaseViewModel
 
 class PlaylistViewModel : BaseViewModel() {

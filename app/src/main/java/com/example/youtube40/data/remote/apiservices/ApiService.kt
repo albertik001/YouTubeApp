@@ -1,6 +1,6 @@
 package com.example.youtube40.data.remote.apiservices
 
-import com.example.youtube40.data.remote.model.Playlist
+import com.example.youtube40.data.remote.dto.Playlist
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

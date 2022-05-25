@@ -1,4 +1,4 @@
-package com.example.youtube40.data.remote.model
+package com.example.youtube40.data.remote.dto
 
 data class Playlist(
     val etag: String?,

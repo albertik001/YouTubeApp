@@ -4,8 +4,8 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.youtube40.common.extensions.loadWithGlide
+import com.example.youtube40.data.remote.dto.Item
 import com.example.youtube40.databinding.ItemPlaylistBinding
-import com.example.youtube40.data.remote.model.Item
 
 class PlaylistAdapter(
     private val onItemClick: (id: String) -> Unit

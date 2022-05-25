@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.youtube40.common.extensions.loadWithGlide
-import com.example.youtube40.data.remote.model.Item
+import com.example.youtube40.data.remote.dto.Item
 import com.example.youtube40.databinding.ItemDetailPlaylistBinding
 
 class PlaylistDetailAdapter(
@@ -41,9 +41,9 @@ class PlaylistDetailAdapter(
 
         fun onBind(playlist: Item) {
             binding.apply {
-                tvTitleDetail.text = playlist.snippet?.title.toString()
-                playlist.snippet?.thumbnails?.medium?.url?.let { imgDetail.loadWithGlide(it) }
-                tvDate.text = playlist.kind.toString()
+                tvThemes.text = playlist.snippet?.title.toString()
+                playlist.snippet?.thumbnails?.medium?.url?.let { imBanner.loadWithGlide(it) }
+                timeVideo.text = playlist.kind.toString()
             }
         }
     }

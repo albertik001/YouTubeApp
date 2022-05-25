@@ -10,11 +10,11 @@ import com.example.youtube40.data.repositories.PlaylistRepository
 class App : Application() {
 
     companion object {
-        val dataSource by lazy {
+        private val dataSource by lazy {
             RemoteDataSource(apiService)
         }
 
-        val apiService: ApiService by lazy {
+        private val apiService: ApiService by lazy {
             RetrofitClient.create()
         }
 

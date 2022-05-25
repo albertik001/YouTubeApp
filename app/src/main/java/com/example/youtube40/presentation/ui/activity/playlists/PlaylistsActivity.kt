@@ -3,7 +3,6 @@ package com.example.youtube40.presentation.ui.activity.playlists
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
-import android.widget.Toast
 import androidx.core.view.isInvisible
 import androidx.core.view.isVisible
 import androidx.lifecycle.ViewModelProvider
@@ -11,7 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.youtube40.common.constants.Constant
 import com.example.youtube40.core.network.status.Status
 import com.example.youtube40.core.utils.ConnectivityStatus
-import com.example.youtube40.data.remote.model.Item
+import com.example.youtube40.data.remote.dto.Item
 import com.example.youtube40.databinding.ActivityPlaylistsBinding
 import com.example.youtube40.presentation.ui.activity.playlists.detail.DetailPlaylistActivity
 import com.example.youtube40.presentation.ui.base.BaseActivity
@@ -22,10 +21,6 @@ class PlaylistsActivity :
     private val adapter = PlaylistAdapter(this::onItemClick)
     override val viewModel: PlaylistViewModel by lazy {
         ViewModelProvider(this)[PlaylistViewModel::class.java]
-    }
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
     }
 
     override fun initView() {
@@ -50,10 +45,11 @@ class PlaylistsActivity :
             when (it.status) {
                 Status.SUCCESS -> {
                     adapter.setList(it.data?.items as ArrayList<Item>)
+                    binding.progressBar.isVisible = false
                 }
                 Status.ERROR -> {}
                 Status.LOADING -> {
-                    Toast.makeText(this, "HELLO", Toast.LENGTH_SHORT).show()
+                    binding.progressBar.isVisible = true
                 }
             }
         }
@@ -66,12 +62,14 @@ class PlaylistsActivity :
     override fun checkInternet() {
         val checkNet = ConnectivityStatus(this)
         checkNet.observe(this) {
+            binding.progressBar.isVisible = true
             if (it) {
+                binding.progressBar.isVisible = false
                 binding.includedNoInternet.root.isInvisible = true
                 binding.recyclerPlaylist.isVisible = true
                 initViewModel()
             } else {
-                Toast.makeText(this, "FUCK", Toast.LENGTH_SHORT).show()
+                binding.progressBar.isVisible = false
                 binding.recyclerPlaylist.isInvisible = true
                 binding.includedNoInternet.root.isVisible = true
             }

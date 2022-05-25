@@ -11,7 +11,7 @@ class RemoteDataSource(private val apiService: ApiService) : BaseDataSource() {
         apiService.getPlaylists(Constant.part, API_KEY, Constant.channelId, 50)
     }
 
-    suspend fun getPlaylistItem(id:String) = getResult {
+    suspend fun getPlaylistItem(id: String) = getResult {
         apiService.getPlaylistItem(Constant.part, API_KEY, id, 50)
     }
 
