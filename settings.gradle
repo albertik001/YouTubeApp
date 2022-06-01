@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Youtube40"
+rootProject.name = "YoutubeApi"
 include ':app'

@@ -5,8 +5,7 @@
     android:id="@+id/layout_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/_white"
-    tools:context=".presentation.ui.activity.playlists.PlaylistsActivity">
+    android:background="@color/_white">
 
     <ProgressBar
         android:id="@+id/progress_bar"

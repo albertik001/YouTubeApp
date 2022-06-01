@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Youtube40</string>
+    <string name="app_name">YoutubeApp</string>
     <string name="text_themes">Emotional Well-being || Healing \nPractices for Children</string>
     <string name="count_videos">32 video series</string>
     <string name="no_internet_connection">No Internet Connection</string>
@@ -13,4 +13,6 @@
     <string name="videos_series"> videos series</string>
     <string name="Emotional"><![CDATA[Emotional Well-being & Healing \n Practices for Children]]></string>
     <string name="playlist1">playlist</string>
+    <string name="toolbar_back">Back</string>
+    <string name="toolbar_playlist">Playlist</string>
 </resources>

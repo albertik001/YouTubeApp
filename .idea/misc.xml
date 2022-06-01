@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidGeek/UI/YoutubeApi/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1935" />
+        <entry key="..\:/AndroidGeek/UI/YoutubeApi/app/src/main/res/drawable/arrow_back.xml" value="0.2075" />
         <entry key="..\:/AndroidGeek/UI/YoutubeApi/app/src/main/res/drawable/background_shape.xml" value="0.1935" />
         <entry key="..\:/AndroidGeek/UI/YoutubeApi/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1935" />
         <entry key="..\:/AndroidGeek/UI/YoutubeApi/app/src/main/res/drawable/icon_custom_background.xml" value="0.208" />
@@ -12,7 +13,7 @@
         <entry key="..\:/AndroidGeek/UI/YoutubeApi/app/src/main/res/font/fjalla_one.xml" value="0.35833333333333334" />
         <entry key="..\:/AndroidGeek/UI/YoutubeApi/app/src/main/res/font/noto_sans.xml" value="0.35833333333333334" />
         <entry key="..\:/AndroidGeek/UI/YoutubeApi/app/src/main/res/layout-v28/item_playlist.xml" value="0.5" />
-        <entry key="..\:/AndroidGeek/UI/YoutubeApi/app/src/main/res/layout/activity_detail_playlist.xml" value="0.22" />
+        <entry key="..\:/AndroidGeek/UI/YoutubeApi/app/src/main/res/layout/activity_detail_playlist.xml" value="0.3108677337826453" />
         <entry key="..\:/AndroidGeek/UI/YoutubeApi/app/src/main/res/layout/activity_playlists.xml" value="0.3489583333333333" />
         <entry key="..\:/AndroidGeek/UI/YoutubeApi/app/src/main/res/layout/include_no_internet.xml" value="0.25" />
         <entry key="..\:/AndroidGeek/UI/YoutubeApi/app/src/main/res/layout/item_detail_playlist.xml" value="0.33" />
@@ -24,7 +25,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17_PREVIEW" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

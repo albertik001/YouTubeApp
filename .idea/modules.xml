@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Youtube40.iml" filepath="$PROJECT_DIR$/.idea/modules/Youtube40.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Youtube40.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Youtube40.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Youtube40.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Youtube40.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Youtube40.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Youtube40.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Youtube40.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Youtube40.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/YoutubeApi.iml" filepath="$PROJECT_DIR$/.idea/modules/YoutubeApi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/YoutubeApi.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/YoutubeApi.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/YoutubeApi.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/YoutubeApi.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/YoutubeApi.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/YoutubeApi.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/YoutubeApi.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/YoutubeApi.app.unitTest.iml" />
     </modules>
   </component>
 </project>

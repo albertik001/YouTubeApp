@@ -8,7 +8,7 @@
         android:id="@+id/im_no_internet"
         android:layout_width="300dp"
         android:layout_height="300dp"
-        android:src="@drawable/no_internet_youtube"
+        android:src="@drawable/image_no_internet"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
